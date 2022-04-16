@@ -1,0 +1,33 @@
+.pages{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+.page_container{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial, 'sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    border: 3px solid #777777;
+    border-radius: 3px;
+}
+.page_container:hover{
+    transition: 0.2s all ease;
+    background-color: #999999;
+}
+.page{
+    background-color: white;
+    color: black;
+}
+.active{
+    background-color: #333333;
+    color: white;
+}

@@ -1,0 +1,8 @@
+.counter {
+    display: flex;
+    width: 140px;
+}
+
+.counter input{
+    width: 100%;
+}

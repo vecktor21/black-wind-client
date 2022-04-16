@@ -1,0 +1,53 @@
+.button{
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 150px;
+    max-width: 200px;
+    cursor: pointer;
+}
+.button:hover{
+    transition: 200ms all ease;
+}
+.green{
+    background-color: #35D57B;
+    border: 2px solid gray;
+}
+.red{
+    background-color: #FF4040;
+    border: 2px solid gray;
+}
+.red:hover{
+    background-color: #E03030;
+}
+.red:disabled{
+    background-color: gray;
+    cursor: default;
+}
+.green:hover{
+    background-color: #44C77D;
+}
+.green:disabled{
+    background-color: gray;
+    cursor: default;
+}
+.blue{
+    background-color: #5C9ECC;
+    border: 2px solid gray;
+}
+.blue:hover{
+    background-color: #5D8DB0;
+}
+.blue:disabled{
+    background-color: gray;
+    cursor: default;
+
+}
+.historyBackBtn{
+    background-color: transparent;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

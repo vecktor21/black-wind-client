@@ -1,0 +1,38 @@
+.searchContainer{
+    width: 200px;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.searchBar{
+    width: 100%;
+    margin: 0 !important;
+    padding: 0;
+    font-size: 20px;
+}
+.candidates{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 28px;
+    right: -100px;
+    left: -100px;
+    cursor: pointer;
+}
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.candidates li{
+    background-color: #E3E3E3;
+    padding: 5px;
+    border: 1px solid lightgray;
+    transition: 0.2s all ease;
+}
+.candidates li:hover{
+    background-color: #85AEFF;
+}

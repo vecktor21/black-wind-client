@@ -1,0 +1,42 @@
+.form_container{
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+}
+.form{
+    width: 400px;
+    margin: 0 auto;
+}
+.form button{
+    font-size: 20px !important;
+}
+.form > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.form input{
+    display: inline-block;
+    width: 300px;
+}
+
+.bottom{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom a{
+    display: inline !important;
+    padding: 0;
+    width: max-content;
+    height: min-content;
+    margin: 0;
+    color: blue;
+    text-decoration: underline;
+}
+.bottom a:hover{
+    background-color: transparent;
+    color: purple;
+    transition: none;
+}

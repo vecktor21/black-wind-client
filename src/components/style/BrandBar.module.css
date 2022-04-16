@@ -1,0 +1,26 @@
+.brand{
+    display: inline-block;
+    margin-right: 10px;
+    min-width: 50px;
+    padding: 2px 10px 2px 10px;
+    font-size: 17px;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.brand:last-child{
+    margin-right: 0;
+}
+.brandContainer{
+    display: flex;
+    margin: 10px 0 10px 0;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.active{
+    color: rebeccapurple;
+    background-color: rgba(182, 182, 182, 0.7);
+    border-radius: 5px;
+    transition: 200ms all ease;
+}

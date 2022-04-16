@@ -1,0 +1,99 @@
+body{
+    height: 100%;
+    background-color: #F1F1F1;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.content{
+    min-height: 525px;
+}
+.header{
+    font-family: 'Noto Serif', serif;
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.header:after{
+    content: ' ';
+    border-bottom: 2px solid lightgray;
+    width: 170px;
+    height: 1px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+.bold{
+    font-weight: bold;
+}
+p{
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+.linkBar{
+    background-color: #EBEBEB;
+    list-style-type: disc !important;
+    display: inline-block;
+    padding: 10px 20px 20px 50px !important;
+    margin: 20px 0 0 0;
+}
+.linkBar li{
+    margin-bottom: 5px;
+}
+.link{
+    padding: 0;
+    display: inline;
+    color: blue;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.link:hover{
+    background-color: transparent;
+}
+h2{
+    font-family: 'Noto Serif', serif;
+    font-size: 22px;
+}
+h3{
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+}
+.list{
+    list-style-type: none;
+    margin: 0 0 10px 25px !important;
+}
+.markedList{
+    margin: 0 0 10px 25px !important;
+    list-style-type: disc !important;
+}
+.danger{
+    color: red;
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.contacts{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 25px 25px !important;
+
+}
+.contacts > li{
+    width: 300px;
+    display: inline-block;
+    margin: 10px 0 0 0 !important;
+    padding: 10px;
+}
+.contacts > li:nth-child(odd){
+    background-color: #EBEBEB;
+}
+.contacts > li:nth-child(even){
+    background-color: #BBBBBB;
+}
+.contacts h3{
+    margin: 0;
+}

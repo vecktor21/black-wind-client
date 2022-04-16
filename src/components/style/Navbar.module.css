@@ -1,0 +1,26 @@
+.navbar{
+    width: 300px;
+    margin-top: 50px;
+}
+.type{
+    border: 1px solid black;
+    border-top: none;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background-color: #777777;
+}
+.type:first-child{
+    border-radius: 5px 5px 0 0;
+    border-top: 1px solid black;
+}
+.type:last-child{
+    border-radius: 0 0 5px 5px;
+}
+.type:hover{
+    background-color: #B7B7B7;
+    transition: 0.3s all ease;
+}
+.active{
+    background-color: #5A5A5A;
+}

@@ -1,0 +1,9 @@
+.shopContainer{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+}
+.deviceContainer{
+    width: 1030px;
+    margin-left: 70px;
+}

@@ -1,0 +1,13 @@
+.errorContainer{
+    color: #EF0611;
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+.errorContainer img{
+    width: 500px;
+}
+.errorContainer >div >div{
+    display: inline-block;
+    max-width: 500px;
+}
