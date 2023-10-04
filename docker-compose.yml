@@ -1,0 +1,14 @@
+#version="3.5"
+services:
+  black-wind-client:
+    container_name: black-wind-client
+    image: black-wind-client
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    networks:
+      - black-wind-net
+    
+networks:
+  black-wind-net:
+    driver: bridge
